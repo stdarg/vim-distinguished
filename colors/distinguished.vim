@@ -43,8 +43,8 @@ call s:ColorDictParser({
   \ , 'Cursor'                      : [     '',     '',               '',      'ffffff',  'dd4010',               '']
   \ , 'lCursor'                     : [     '',     '',               '',      'ffffff',  '89b6e2',               '']
   \
-  \ , 'CursorLine'                  : [     '',    236,               '',            '',  '3a3a3a',               '']
-  \ , 'CursorLineNr'                : [    231,    240,               '',      'ffffff',  '585858',               '']
+  \ , 'CursorLine'                  : [     '',    235,               '',            '',  '3a3a3a',               '']
+  \ , 'CursorLineNr'                : [    231,    237,               '',      'ffffff',  '585858',               '']
   \ , 'CursorColumn'                : [    231,    237,               '',      'ffffff',  '3a3a3a',               '']
   \
   \ , 'Folded'                      : [    249,    234,               '',      'b2b2b2',  '1c1c1c',               '']
@@ -66,7 +66,7 @@ call s:ColorDictParser({
   \ , 'MoreMsg'                     : [    214,     '',           'bold',      'ffaf00',        '',           'bold']
   \ , 'ModeMsg'                     : ['black', 'cyan',           'bold',      'ffaf00',        '',           'bold']
   \ , 'WarningMsg'                  : ['yellow', 'red',           'bold',      'ff5f00',        '',           'bold']
-  \ , 'ErrorMsg'                    : [  'red', 'white',          'bold',      'ff0000',        '',           'bold']
+  \ , 'ErrorMsg'                    : [  'red',     '',               '',      'ff0000',        '',           'bold']
   \
   \ , 'Comment'                     : [    238,     '',               '',      '767676',  '121212',               '']
   \ , 'vimCommentTitleLeader'       : [    238,    233,               '',      'bcbcbc',  '121212',               '']
@@ -83,33 +83,34 @@ call s:ColorDictParser({
   \
   \ , 'SpecialKey'                  : [    239,     '',               '',      '4e4e4e',        '',               '']
   \ , 'NonText'                     : [     88,     '',               '',      '870000',        '',               '']
-  \ , 'MatchParen'                  : ['white', 'darkgray',         'bold',      'ffffff',  '005faf',           'bold']
+  \ , 'MatchParen'                  : ['white','darkgray',        'bold',      'ffffff',  '005faf',           'bold']
   \
-  \ , 'Conditional'                 : [    249,     '',           'bold',      'af875f',        '',           'bold']
-  \ , 'Constant'                    : [ 'blue',     '',               '',      'af875f',        '',           'bold']
+  \ , 'Conditional'                 : [     45,     '',           'bold',      'af875f',        '',           'bold']
+  \ , 'Boolean'                     : [     33,    '',               '',      'af875f',        '',           'bold']
+  \ , 'Constant'                    : [    255,     '',               '',      'af875f',        '',           'bold']
   \ , 'Special'                     : [     99,     '',               '',      'afd787',        '',               '']
   \ , 'Identifier'                  : [     25,     '',               '',      '5f8787',        '',           'bold']
-  \ , 'Statement'                   : [    251,     '',               '',      'd7d787',        '',           'bold']
+  \ , 'Statement'                   : [     85,     '',               '',      'd7d787',        '',           'bold']
   \ , 'PreProc'                     : [ 'blue',     '',               '',      '9e9e9e',        '',               '']
   \ , 'Type'                        : [     30,     '',               '',      '5f87af',        '',           'bold']
-  \ , 'String'                      : [    250,     '',               '',      'afaf5f',        '',               '']
-  \ , 'Number'                      : ['yellow',    '',               '',      'd7875f',        '',               '']
+  \ , 'String'                      : [     27,     '',               '',      'afaf5f',        '',               '']
+  \ , 'Number'                      : [    251,     '',               '',      'd7875f',        '',               '']
   \ , 'Define'                      : [    173,     '',               '',      'd7875f',        '',               '']
   \ , 'Error'                       : [  'red', 'white',              '',      'ff8700',  'af0000',               '']
   \ , 'Function'                    : [     23,     '',               '',      'd7af5f',        '',               '']
   \ , 'Include'                     : [    173,     '',               '',      'd7875f',        '',               '']
   \ , 'PreCondit'                   : [    173,     '',               '',      'd7875f',        '',               '']
-  \ , 'Keyword'                     : [  'blue',    '',               '',      'd7875f',        '',               '']
-  \ , 'Search'                      : [ 'cyan',    131,               '',      '000000',  'ffff5f', 'underline,bold']
+  \ , 'Keyword'                     : [    75,      '',               '',      'd7875f',        '',               '']
+  \ , 'Search'                      : [ 'cyan',    238,               '',      '000000',  'ffff5f', 'underline,bold']
   \ , 'Title'                       : [    231,     '',               '',      'ffffff',        '',               '']
   \ , 'Delimiter'                   : ['darkgray',  '',               '',      '949494',        '',               '']
   \ , 'StorageClass'                : [    187,     '',               '',      'd7d7af',        '',               '']
-  \ , 'Operator'                    : [     27,     '',               '',      'd7af87',        '',               '']
+  \ , 'Operator'                    : [    99,     '',               '',      'd7af87',        '',               '']
   \
   \ , 'TODO'                        : [  'red',     '',           'bold',      'ffff87',  '875f00',           'bold']
   \
-  \ , 'SyntasticWarning'            : [    220,     94,               '',      'ffff87',  '875f00',           'bold']
-  \ , 'SyntasticError'              : [    202,     52,               '',      'ffff87',  '875f00',           'bold']
+  \ , 'SyntasticWarning'            : [     8,     11,                '',      'ffff87',  '875f00',           'bold']
+  \ , 'SyntasticError'              : [     8,     9,                 '',      'ffff87',  '875f00',           'bold']
   \
   \ , 'Pmenu'                       : [    248,    240,               '',      'a8a8a8',  '585858',               '']
   \ , 'PmenuSel'                    : [    253,    245,               '',      'dadada',  '8a8a8a',               '']
@@ -186,8 +187,8 @@ hi link diffChanged        DiffChange
 hi link diffRemoved        DiffDelete
 
 " C / C++
-hi link Character       Constant
-hi link Boolean         Constant
+hi link Character       Number
+hi link Boolean         Boolean
 hi link Float           Number
 hi link Repeat          Statement
 hi link Label           Statement
