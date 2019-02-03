@@ -68,7 +68,7 @@ call s:ColorDictParser({
   \ , 'WarningMsg'                  : ['yellow', 'red',           'bold',      'ff5f00',        '',           'bold']
   \ , 'ErrorMsg'                    : [  'red',     '',               '',      'ff0000',        '',           'bold']
   \
-  \ , 'Comment'                     : [    238,     '',               '',      '767676',  '121212',               '']
+  \ , 'Comment'                     : [     68,     '',               '',      '5f87d7',  '121212',               '']
   \ , 'vimCommentTitleLeader'       : [    238,    233,               '',      'bcbcbc',  '121212',               '']
   \ , 'vimCommentTitle'             : [    238,    233,               '',      'bcbcbc',  '121212',               '']
   \ , 'vimCommentString'            : [    238,    233,               '',      '8a8a8a',  '121212',               '']
